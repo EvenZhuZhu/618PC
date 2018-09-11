@@ -1,0 +1,285 @@
+/*---------------------header--------------------*/
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+
+.header .h-content {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  background: url(../images/logo.png) no-repeat;
+  background-position: left center;
+  text-align: right;
+  line-height: 70px;
+}
+
+.header .h-content a {
+  font-size: 15px;
+  color: #626262;
+  margin-left: 45px;
+}
+
+.header .h-content a:hover {
+  color: #d72523;
+  text-decoration: none;
+}
+
+/*---------------------banner--------------------*/
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  display: block;
+  width: 1920px;
+  height: 604px;
+}
+
+/*-----------------------main----------------------*/
+.bx {
+  width: 1180px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.bx .header {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  top: -65px;
+}
+
+.bx .header .fl, .header .fr {
+  width: 50%;
+  height: 50px;
+  background-color: #f4f4f4;
+}
+
+.bx .header .fl {
+  padding-left: 34px;
+  box-sizing: border-box;
+}
+
+.bx .header .fl span, .header .fl div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bx .header .fl span {
+  margin-top: 14px;
+  height: 20px;
+  padding-left: 30px;
+  background: url("../images/notice.png") no-repeat left center;
+  background-size: 17px 17px;
+  line-height: 20px;
+}
+
+.bx .header .fl .news {
+  width: 360px;
+  height: 20px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.bx .header .fl .news .news-carousel {
+  width: 360px;
+}
+
+.bx .header .fl .news ul li {
+  width: 360px;
+  height: 20px;
+}
+
+.bx .header .fl a {
+  color: #ffffff;
+}
+
+.bx .header .fl .go {
+  padding-right: 20px;
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 0;
+  background: url("../images/go.png") no-repeat center center;
+  background-size: 10px 20px;
+}
+
+.header .fr .fr_left {
+  display: inline-block;
+  position: relative;
+  float:right;
+}
+
+.header .fr .fr_left button {
+  width: 48px;
+  height:30px;
+  border:none;
+  border-radius:10px;
+  position: absolute;
+  right:0;
+  top:10px;
+  cursor: pointer;
+  background: url("../images/search.png") no-repeat center;
+  background-size:24px 24px;
+  background-color: #5bbeb6;
+}
+
+.header .fr input, .header .fr select {
+  width: 263px;
+  height: 30px;
+  border: 1px solid #5bbeb6;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 14px;
+  box-sizing: border-box;
+  float:right;
+}
+
+.header .fr input::placeholder {
+  color: #cccccc;
+}
+
+.header .fr select {
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("../images/down.png") no-repeat 240px center;
+  margin:10px 10px 10px 30px;
+}
+
+.header .fr select option.first {
+  color: #cccccc;
+}
+
+/*----------------------------义卖接力------------------*/
+
+/*list*/
+.sale .list {
+  width: 1180px;
+}
+
+.sale .list ul li {
+  float: left;
+  width: 226px;
+  height: 238px;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #faf5f5;
+  margin: 0 12px 14px 0px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+.sale .list ul li:nth-child(5n) {
+  margin-right: 0;
+}
+
+/*.sale .list ul li:hover {*/
+/*border: 1px solid #f2b2ac;*/
+/**/
+/*}*/
+
+.sale .list ul li a {
+  color: #535353;
+  text-decoration: none;
+  display: block;
+}
+
+.sale .list ul li img {
+  width: 100%;
+  height: 143px;
+  display: block;
+}
+
+.sale .list ul li p {
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.sale .list ul li p.bottomdes {
+  color: #a9a9a9;
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.sale .page {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.sale .page span {
+  display: inline-block;
+  padding: 12px 14px;
+  margin-left: 6px;
+  color: #898989;
+  font-size: 16px;
+  vertical-align: top;
+  font-weight: 500;
+}
+
+.sale .page span#goto {
+  padding: 8px 14px;
+}
+
+.sale .page span i {
+  padding: 4px;
+  font-style: normal;
+}
+
+.sale .page span input {
+  width: 10px;
+  padding: 4px 6px;
+  margin: 0 2px;
+}
+
+.sale .page span:hover {
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sale .page span#total:hover, .sale .page span#goto:hover {
+  background-color: #fff;
+  color: #898989;
+}
+
+/*-----------------活动说明------------*/
+.des {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.des .text {
+  border: 1px solid #f4eae9;
+  background-color: #fdf9f8;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #5c5c5c;
+}
+
+.des .text p {
+  line-height: 30px;
+}
+
+/*-----------------address---------------*/
+.address {
+  width: 100%;
+  margin-top: 26px;
+  text-align: center;
+  height: 65px;
+  line-height: 65px;
+  background-color: #ededed;
+  color: #7f7f7f;
+}
+
